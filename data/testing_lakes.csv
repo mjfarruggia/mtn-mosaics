@@ -1,0 +1,125 @@
+lake ID,REG,super_region,lake,fish,ELEV_MASL,richness,LAT_N,LONG_E
+691,BANF,Northern Rockies,Mt. Douglas Small Pond 1,Assumed Absent,2300,3,51.51460116,-115.9427245
+700,BANF,Northern Rockies,Mt. Douglas Small Pond 2,Assumed Absent,2300,5,51.5140129,-115.9423058
+701,BANF,Northern Rockies,Divide Pond (lower),Unknown,2400,1.5,51.74072916,-115.9161057
+705,BANF,Northern Rockies,Toad Pond,Assumed Absent,2150,4,51.59210509,-115.7937909
+709,BANF,Northern Rockies,Grouse Pond,Assumed Absent,2317.9,4.5,51.59693771,-115.8073645
+717,BANF,Northern Rockies,Mt. Douglas Large (B209),Assumed Absent,2300,2,51.51419277,-115.9443048
+724,BANF,Northern Rockies,Grouse Lake,Unknown,2271,5.444444444,51.59815461,-115.7770843
+806,BANF,Northern Rockies,Cuthead Pond (north),Assumed Absent,2210,3.666666667,51.45108603,-115.7530113
+1166,DES NF,Cascades,Desane,Unknown,1604,4,43.913452,-121.916702
+1417,DES NF,Cascades,Muskrat,Unknown,1966,5.5,43.8629,-121.901703
+1419,DES NF,Cascades,North Barbie,Unknown,1723,5,43.820625,-121.950678
+1425,DES NF,Cascades,Jezebel,Assumed Absent,1787,5,43.844986,-121.957299
+604,FOOT,Northern Rockies,Teardrop Pond,Assumed Absent,2030,8,50.20173876,-114.4452664
+606,FOOT,Northern Rockies,Plateau Pond,Unknown,2180,4,50.23113541,-114.5080338
+809,FOOT,Northern Rockies,Tadpole Pond,Assumed Absent,1798,5,50.216821,-114.42996
+109,GLAC,Columbia,Marion Lake,Unknown,1692,3.5,51.25949286,-117.5086327
+117,GLAC,Columbia,G16 Pond,Unknown,2110,2,51.30607721,-117.3442704
+119,GLAC,Columbia,G7 Pond,Unknown,1771,1,51.17180427,-117.3879844
+1286,GP NF,Cascades,Wright,Unknown,902,5,46.49388889,-121.5758333
+1313,GP NF,Cascades,Goat,Unknown,1324,3,46.522058,-121.485635
+1359,GP NF,Cascades,Toke Tie Pothole,Unknown,1402,5,45.98815,-121.792
+1376,GP NF,Cascades,Peggy,Assumed Absent,1317,4,45.975948,-121.820633
+1386,GP NF,Cascades,Janet,Assumed Absent,1305,5,45.97371,-121.81853
+1408,GP NF,Cascades,Delia,Unknown,1281,4,45.97504,-121.81582
+1416,GP NF,Cascades,Harty,Unknown,1402,6,45.97428,-121.78713
+401,JASP,Northern Rockies,Summit Lake (north),Unknown,1540,6,52.89379611,-117.7658784
+404,JASP,Northern Rockies,O'Beirne Lake #3,Unknown,2120,4,52.91386284,-118.6108965
+438,JASP,Northern Rockies,Summit Lake (south),Unknown,1540,11,52.88642152,-117.7551071
+467,JASP,Northern Rockies,O'Beirne Lake #2,Unknown,2027,7,52.91348678,-118.6041452
+468,JASP,Northern Rockies,O'Beirne Lake #4,Unknown,2027,8,52.90783559,-118.600531
+487,JASP,Northern Rockies,Rink Lake,Unknown,1793,3,52.90317183,-118.5883151
+526,JASP,Northern Rockies,O'Beirne Lake #1,Unknown,2133,4.5,52.92257501,-118.6048977
+740,KANA,Northern Rockies,Three Lakes Valley Lower Lake,Unknown,2304,2,50.81980325,-115.27591
+740,KANA,Northern Rockies,Three Lakes Valley Lower Lake,Unknown,2304,2,50.81980325,-115.27591
+741,KANA,Northern Rockies,Three Lakes Valley Pond,Assumed Absent,2269.1,4,50.81741185,-115.2814497
+741,KANA,Northern Rockies,Three Lakes Valley Pond,Assumed Absent,2269.1,4,50.81741185,-115.2814497
+746,KANA,Northern Rockies,Chester Lake,Present,2216,3,50.81182005,-115.2736915
+136,KOOT,Northern Rockies,K36 Pond (Lower Storm Lake),Unknown,2241,3,51.21405262,-116.0266663
+137,KOOT,Northern Rockies,Storm Lake (Upper),Unknown,2241,3.333333333,51.21619213,-116.0201207
+138,KOOT,Northern Rockies,K24 Pond (Little Kootenay Pond),Assumed Absent,1214,14,50.90292248,-116.0362545
+143,KOOT,Northern Rockies,K16 Pond,Assumed Absent,1265,10,50.87163808,-116.0540827
+144,KOOT,Northern Rockies,Nixon Pond,Assumed Absent,1183,8,50.73887748,-115.932682
+199,KOOT,Northern Rockies,Meadow Creek Beaver Pond,Assumed Absent,1215,6,50.75571395,-115.9526436
+946,LASSEN,Cascades,Unnamed #36,Assumed Absent,2195,6,40.457965,-121.448997
+950,LASSEN,Cascades,Unnamed #34,Assumed Absent,2043,6,40.43043,-121.28113
+952,LASSEN,Cascades,Cliff Lake,Unknown,2272,3,40.47704,-121.45596
+963,LASSEN,Cascades,Inspiration Pond 2,Assumed Absent,2053,9,40.47735,-121.29654
+964,LASSEN,Cascades,Unnamed #27,Unknown,2219,9,40.477853,-121.252521
+966,LASSEN,Cascades,Forest Lake,Unknown,2301,2,40.439232,-121.550743
+1171,MH NF,Cascades,Triangle,Assumed Absent,1372,6,44.85067,-121.778404
+1179,MH NF,Cascades,West2,Assumed Absent,1317,5,44.884153,-122.075961
+1181,MH NF,Cascades,Lenore,Unknown,1488,5,44.895625,-122.067231
+1196,MH NF,Cascades,Clackamas,Assumed Absent,1021,5,45.09623,-121.742851
+1210,MH NF,Cascades,Fryingpan,Assumed Absent,1217,2,45.18889,-121.79301
+1213,MH NF,Cascades,Little Crater,Unknown,988,5,45.14831,-121.75084
+1222,MH NF,Cascades,Dickey,Assumed Absent,1305,5,44.887959,-122.104112
+1249,MH NF,Cascades,Upper Twin1,Unknown,1170,4,44.857733,-122.120029
+1256,MH NF,Cascades,Summit,Assumed Absent,1281,4,45.031506,-121.788689
+1270,MH NF,Cascades,Enid,Assumed Absent,1098,10,45.305676,-121.776192
+1273,MH NF,Cascades,Hickman,Unknown,1003,5,45.418175,-121.912025
+1277,MH NF,Cascades,Kinzel,Assumed Absent,1296,6,45.254009,-121.861191
+1289,MH NF,Cascades,Devils,Assumed Absent,1204,6,45.34034,-121.82419
+1314,MH NF,Cascades,Hidden5,Unknown,1159,4,45.320118,-121.768135
+1394,MH NF,Cascades,Boulder,Unknown,1387,6,45.257618,-121.568405
+99,REVE,Columbia,R11 Pond,Unknown,1820,8,51.05540909,-118.0627358
+105,REVE,Columbia,R15 Pond,Unknown,1942,6,51.07484511,-117.9715093
+971,RR-SIS NF,Siskiyou,Lonesome,Unknown,1433,6,42.5439,-121.156079
+1155,RR-SIS NF,Siskiyou,Azalea,Present,547,8.5,42.702932,-124.072784
+1157,RR-SIS NF,Siskiyou,Towhead,Unknown,1646,4.5,41.927436,-123.195349
+349,WATE,Northern Rockies,Pond (near park entrance buildings),Assumed Absent,1276,13,49.1136216,-113.8442686
+352,WATE,Northern Rockies,Buffalo Paddock Lake,Present,1329,11,49.12736025,-113.8609442
+1162,WILL NF,Cascades,WILL241,Assumed Absent,1669,6,43.767364,-122.013476
+1163,WILL NF,Cascades,WILL292,Assumed Absent,1681,6,43.752637,-122.081579
+1168,WILL NF,Cascades,Lower Horse,Unknown,1387,5,44.008171,-121.893089
+1170,WILL NF,Cascades,WILL302,Assumed Absent,1596,4,43.751191,-122.086039
+1173,WILL NF,Cascades,WILL12,Unknown,1656,4,43.827807,-122.002302
+1183,WILL NF,Cascades,WILL144,Assumed Absent,1652,5,43.79279,-122.006888
+1188,WILL NF,Cascades,WILL171,Unknown,1680,5,43.785647,-122.029196
+1193,WILL NF,Cascades,WILL66.1,Assumed Absent,1605,5,43.814904,-122.019922
+1194,WILL NF,Cascades,WILL176,Unknown,1658,8,43.785921,-122.023649
+1198,WILL NF,Cascades,WILL19,Unknown,1589,3,43.827161,-122.015513
+1203,WILL NF,Cascades,WILL149,Assumed Absent,1658,9,43.791645,-122.007321
+1204,WILL NF,Cascades,WILL263,Unknown,1667,6,43.763517,-122.055498
+1206,WILL NF,Cascades,WILL26,Unknown,1673,6,43.826128,-121.999168
+1212,WILL NF,Cascades,WILL73,Assumed Absent,1607,5,43.813835,-122.020593
+1215,WILL NF,Cascades,WILL13,Unknown,1743,6,43.827644,-121.988186
+1217,WILL NF,Cascades,WILL259,Assumed Absent,1578,6,43.764194,-122.068561
+1227,WILL NF,Cascades,WILL188,Assumed Absent,1682,7,43.780618,-122.001037
+1230,WILL NF,Cascades,WILL290,Assumed Absent,1624,6,43.752509,-122.077098
+1233,WILL NF,Cascades,Hidden4,Unknown,1006,5.5,44.020119,-122.237541
+1238,WILL NF,Cascades,Linton,Unknown,1068,7,44.167896,-121.893936
+1241,WILL NF,Cascades,WILL69,Assumed Absent,1596,4,43.814536,-122.012073
+1254,WILL NF,Cascades,WILL233,Assumed Absent,1580,5,43.768476,-122.067833
+1257,WILL NF,Cascades,WILL186,Assumed Absent,1682,8,43.781222,-122.003908
+1259,WILL NF,Cascades,WILL201,Unknown,1741,6,43.777779,-122.024742
+1260,WILL NF,Cascades,WILL208,Assumed Absent,1754,8,43.775171,-122.03096
+1261,WILL NF,Cascades,WILL101,Assumed Absent,1639,6,43.802535,-122.009383
+1262,WILL NF,Cascades,WILL108,Assumed Absent,1645,8,43.800611,-122.002571
+1442,WILL NF,Cascades,WILL112,Assumed Absent,1644,2,43.800104,-122.004374
+970,WIN NF,Cascades,Hemlock1,Unknown,1952,5,42.34863,-122.089022
+205,YOHO,Northern Rockies,Crystal Lake,Assumed Absent,2206,1.5,51.42915145,-116.7056828
+207,YOHO,Northern Rockies,Otto Lake,Unknown,2060,1.5,51.47439289,-116.7181057
+212,YOHO,Northern Rockies,Hungabee Lake (mid Opabin),Unknown,2243,3.375,51.34339722,-116.319354
+213,YOHO,Northern Rockies,Cascade Lake (lower Opabin),Assumed Absent,2234,2,51.34439945,-116.3247234
+223,YOHO,Northern Rockies,Fairy Lake,Unknown,2228,4.5,51.54798387,-116.4775281
+224,YOHO,Northern Rockies,Mary Lake,Unknown,2034,5,51.35074748,-116.3340789
+227,YOHO,Northern Rockies,Indigo Lake (aka Frigid),Unknown,2303,1.5,51.55118091,-116.7065403
+228,YOHO,Northern Rockies,Victoria Lake,Unknown,2225,1,51.35830299,-116.3141925
+232,YOHO,Northern Rockies,Kiwetinok Lake,Unknown,2461,3,51.51926212,-116.600567
+235,YOHO,Northern Rockies,Little Gem Lake,Unknown,1886,3,51.40562104,-116.7285926
+243,YOHO,Northern Rockies,Opabin Pond (lower),Assumed Absent,2204,1,51.348382,-116.326036
+250,YUK NORTH,Yukon,YUK18,Unknown,1173,4,64.57975,-138.29425
+251,YUK NORTH,Yukon,YUK20 (Two Moose),Assumed Absent,1097,3,64.73479,-138.3657
+261,YUK NORTH,Yukon,YUK59,Unknown,1387,2,64.48753,-138.28359
+262,YUK NORTH,Yukon,YUK17 (Lenore),Unknown,610,4,63.85285,-138.02763
+263,YUK NORTH,Yukon,YUK14,Unknown,701,3,63.98657,-135.36648
+264,YUK NORTH,Yukon,YUK11,Unknown,732,5,63.1544,-136.50345
+272,YUK NORTH,Yukon,Halfway,Present,692.5,4,63.80285,-135.82009
+274,YUK NORTH,Yukon,YUK15,Unknown,594,3,63.65424,-135.86301
+276,YUK NORTH,Yukon,YUK12 (Five Mile),Unknown,579,4,63.65275,-135.89584
+283,YUK NORTH,Yukon,YUK60,Assumed Absent,600,2,62.74665,-136.57667
+284,YUK NORTH,Yukon,YUK10,Unknown,655,3,63.02118,-136.47563
+296,YUK NORTH,Yukon,YUK9 (Tthe Ndu),Unknown,579,4,62.71667,-136.68333
+290,YUK SOUTH,Yukon,YUK8,Unknown,686,5,62.17586,-136.24604

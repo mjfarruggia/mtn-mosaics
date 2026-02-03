@@ -1,0 +1,662 @@
+Lake_name,Max_epi_T,Year,Date,Mt_range,Lat,Lon,Elevation ,Country_state
+Lake Basin,16.4,2008,9/6/2008,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,16.5,2009,8/21/2009,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,14.7,2010,8/31/2010,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,14.2,2011,9/3/2011,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,14.9,2012,9/1/2012,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,17.6,2013,8/4/2013,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,13.3,2014,9/14/2014,Sierra Nevada,36.98311,-118.49,3601.5,California
+Lake Basin,13.4,2015,9/23/2015,Sierra Nevada,36.98311,-118.49,3601.5,California
+McGee Lakes,12.8,2008,9/24/2008,Sierra Nevada,37.1508,-118.726,3470.4,California
+McGee Lakes,14.5,2009,9/14/2009,Sierra Nevada,37.1508,-118.726,3470.4,California
+McGee Lakes,13.7,2010,9/1/2010,Sierra Nevada,37.1508,-118.726,3470.4,California
+McGee Lakes,16.6,2012,9/14/2012,Sierra Nevada,37.1508,-118.726,3470.4,California
+McGee Lakes,13.5,2013,9/11/2013,Sierra Nevada,37.1508,-118.726,3470.4,California
+McGee Lakes,17.3,2014,8/28/2014,Sierra Nevada,37.1508,-118.726,3470.4,California
+McGee Lakes,14.4,2015,9/11/2015,Sierra Nevada,37.1508,-118.726,3470.4,California
+Spring Lake,11.8,2008,9/17/2008,Sierra Nevada,36.47296,-118.559,3352.8,California
+Spring Lake,17.3,2009,9/2/2009,Sierra Nevada,36.47296,-118.559,3352.8,California
+Spring Lake,16.5,2010,8/17/2010,Sierra Nevada,36.47296,-118.559,3352.8,California
+Spring Lake,13.7,2011,9/26/2011,Sierra Nevada,36.47296,-118.559,3352.8,California
+Spring Lake,17,2012,8/28/2012,Sierra Nevada,36.47296,-118.559,3352.8,California
+Spring Lake,17.4,2014,9/12/2014,Sierra Nevada,36.47296,-118.559,3352.8,California
+Spring Lake,17.7,2015,8/27/2015,Sierra Nevada,36.47296,-118.559,3352.8,California
+Aster Lake,16.5,2008,9/24/2008,Sierra Nevada,36.60296,-118.68,3009.3,California
+Aster Lake,19.5,2010,9/21/2010,Sierra Nevada,36.60296,-118.68,3009.3,California
+Aster Lake,17,2011,8/31/2011,Sierra Nevada,36.60296,-118.68,3009.3,California
+Aster Lake,21.8,2012,8/9/2012,Sierra Nevada,36.60296,-118.68,3009.3,California
+Aster Lake,23.1,2013,8/7/2013,Sierra Nevada,36.60296,-118.68,3009.3,California
+Aster Lake,16.5,2015,9/14/2015,Sierra Nevada,36.60296,-118.68,3009.3,California
+State Lakes,12.6,2009,9/7/2009,Sierra Nevada,36.91787,-118.563,3460.7,California
+State Lakes,14.6,2010,9/15/2010,Sierra Nevada,36.91787,-118.563,3460.7,California
+State Lakes,13.1,2011,9/21/2011,Sierra Nevada,36.91787,-118.563,3460.7,California
+State Lakes,14.5,2012,9/5/2012,Sierra Nevada,36.91787,-118.563,3460.7,California
+State Lakes,18,2013,8/1/2013,Sierra Nevada,36.91787,-118.563,3460.7,California
+State Lakes,16,2014,8/27/2014,Sierra Nevada,36.91787,-118.563,3460.7,California
+Finger Pk Basin Lk,17.5,2008,8/21/2008,Sierra Nevada,37.05004,-118.72,3519.2,California
+Sky Blue Lake,15,2008,8/25/2008,Sierra Nevada,36.53003,-118.273,3793.6,California
+Sky Blue Lake,14.8,2012,8/15/2012,Sierra Nevada,36.53003,-118.273,3793.6,California
+North Mt. Brewer,15.5,2008,8/20/2008,Sierra Nevada,36.75175,-118.417,3321.5,California
+North Mt. Brewer,14.7,2012,8/20/2012,Sierra Nevada,36.75175,-118.417,3321.5,California
+Lower Dusy Basin,17.3,2008,8/7/2008,Sierra Nevada,37.0962,-118.569,3573.3,California
+Lower Dusy Basin,16,2012,9/3/2012,Sierra Nevada,37.0962,-118.569,3573.3,California
+Upper Horse Creek,5.2,2008,9/21/2008,Sierra Nevada,36.39861,-118.612,3176.9,California
+Upper Horse Creek,15.7,2012,8/27/2012,Sierra Nevada,36.39861,-118.612,3176.9,California
+Kern Point,15.3,2008,8/23/2008,Sierra Nevada,36.60256,-118.442,3645.2,California
+Kern Point,15.4,2012,8/17/2012,Sierra Nevada,36.60256,-118.442,3645.2,California
+Little South America,17.1,2008,8/22/2008,Sierra Nevada,36.67518,-118.406,3689,California
+Little South America,14.4,2012,8/19/2012,Sierra Nevada,36.67518,-118.406,3689,California
+Darwin Bench,8.9,2008,9/23/2008,Sierra Nevada,37.18324,-118.705,3735.8,California
+Darwin Bench,12.7,2012,9/13/2012,Sierra Nevada,37.18324,-118.705,3735.8,California
+Mosquito Lakes,16.9,2008,9/21/2008,Sierra Nevada,36.42021,-118.614,3158.2,California
+Mosquito Lakes,21.5,2008,9/21/2008,Sierra Nevada,36.42021,-118.614,3158.2,California
+Mosquito Lakes,15.5,2012,8/27/2012,Sierra Nevada,36.42021,-118.614,3158.2,California
+Little Window Peak,12.8,2008,9/8/2008,Sierra Nevada,36.8898,-118.444,3488.3,California
+Little Window Peak,16.1,2012,8/29/2012,Sierra Nevada,36.8898,-118.444,3488.3,California
+Upper Basin,16.9,2009,8/20/2009,Sierra Nevada,37.0179,-118.472,3668.2,California
+Upper Basin,14.1,2014,9/12/2014,Sierra Nevada,37.0179,-118.472,3668.2,California
+Evolution Basin,11.9,2009,9/15/2009,Sierra Nevada,37.1367,-118.698,3598.9,California
+Evolution Basin,16.3,2014,8/29/2014,Sierra Nevada,37.1367,-118.698,3598.9,California
+Cyclamen Lake,13.1,2009,9/3/2009,Sierra Nevada,36.46882,-118.553,3405.5,California
+Cyclamen Lake,16.2,2014,9/12/2014,Sierra Nevada,36.46882,-118.553,3405.5,California
+Twin Lake,19.7,2009,9/10/2009,Sierra Nevada,36.65734,-118.717,3010.2,California
+Twin Lake,21.1,2014,9/1/2014,Sierra Nevada,36.65734,-118.717,3010.2,California
+Horseshoe Lakes,22,2009,9/6/2009,Sierra Nevada,36.94701,-118.577,3269.9,California
+Horseshoe Lakes,18.4,2014,8/27/2014,Sierra Nevada,36.94701,-118.577,3269.9,California
+Reinstein,14.9,2009,9/16/2009,Sierra Nevada,37.07262,-118.726,3528.4,California
+Reinstein,10.9,2014,9/25/2014,Sierra Nevada,37.07262,-118.726,3528.4,California
+Nine Lakes,12.7,2009,9/17/2009,Sierra Nevada,36.55878,-118.529,3729.5,California
+Nine Lakes,12.8,2014,9/14/2014,Sierra Nevada,36.55878,-118.529,3729.5,California
+Kearsarge Lakes,14,2009,8/29/2009,Sierra Nevada,36.76609,-118.387,3466.6,California
+Kearsarge Lakes,14.1,2014,8/13/2014,Sierra Nevada,36.76609,-118.387,3466.6,California
+Bishop Pass,12.7,2009,8/25/2009,Sierra Nevada,37.11243,-118.544,3777.8,California
+Bishop Pass,12.3,2014,9/10/2014,Sierra Nevada,37.11243,-118.544,3777.8,California
+Hockett Lakes,22.8,2009,8/12/2009,Sierra Nevada,36.35831,-118.668,2645.5,California
+Hockett Lakes,20.1,2014,9/7/2014,Sierra Nevada,36.35831,-118.668,2645.5,California
+Kaweah Basin,12.1,2009,9/2/2009,Sierra Nevada,36.54161,-118.491,3757.6,California
+Kaweah Basin,15.1,2014,8/15/2014,Sierra Nevada,36.54161,-118.491,3757.6,California
+Diamond Mesa,11.9,2010,8/20/2010,Sierra Nevada,36.6762,-118.379,3905.6,California
+Diamond Mesa,11.5,2015,8/14/2015,Sierra Nevada,36.6762,-118.379,3905.6,California
+LeConte Divide,12.4,2010,8/31/2010,Sierra Nevada,37.16183,-118.805,3472.6,California
+LeConte Divide,14.1,2015,9/12/2015,Sierra Nevada,37.16183,-118.805,3472.6,California
+Upper Sheep Camp,15.7,2010,9/24/2010,Sierra Nevada,36.6771,-118.71,2879,California
+Lonely Lake,12.8,2010,9/22/2010,Sierra Nevada,36.60521,-118.592,3390.4,California
+Lonely Lake,13.2,2015,9/15/2015,Sierra Nevada,36.60521,-118.592,3390.4,California
+Stocking Lake,10.4,2010,8/22/2010,Sierra Nevada,36.87282,-118.373,3672,California
+Stocking Lake,9.5,2015,9/22/2015,Sierra Nevada,36.87282,-118.373,3672,California
+Cartridge Pass,13,2010,9/1/2010,Sierra Nevada,36.96579,-118.489,3512.8,California
+Cartridge Pass,12.9,2015,9/24/2015,Sierra Nevada,36.96579,-118.489,3512.8,California
+Black Divide,14.7,2010,9/3/2010,Sierra Nevada,37.07898,-118.634,3672.2,California
+Big Five Lakes,21.7,2010,8/18/2010,Sierra Nevada,36.48409,-118.522,3186,California
+Big Five Lakes,18.2,2015,8/28/2015,Sierra Nevada,36.48409,-118.522,3186,California
+Sphinx,16.4,2010,8/23/2010,Sierra Nevada,36.73057,-118.517,3504.9,California
+Sphinx,16.3,2015,8/16/2015,Sierra Nevada,36.73057,-118.517,3504.9,California
+Upper Palisades,9.2,2010,9/2/2010,Sierra Nevada,37.05127,-118.455,3770.2,California
+Upper Palisades,10.6,2015,9/25/2015,Sierra Nevada,37.05127,-118.455,3770.2,California
+Upper Miter Basin,13.9,2010,8/11/2010,Sierra Nevada,36.54013,-118.268,3942.4,California
+Upper Miter Basin,11.1,2015,8/12/2015,Sierra Nevada,36.54013,-118.268,3942.4,California
+Upper Kern-Kaweah,2.2,2011,8/23/2011,Sierra Nevada,36.574,-118.52,3636.2,California
+Charlotte Lake,18.5,2011,8/17/2011,Sierra Nevada,36.77831,-118.43,3407.1,California
+Striped Mtn Lake,12.6,2011,9/4/2011,Sierra Nevada,36.9664,-118.427,3670.7,California
+Granite Lake,17.4,2011,9/20/2011,Sierra Nevada,36.86529,-118.618,3258.4,California
+Upper Wallace,16.3,2011,8/21/2011,Sierra Nevada,36.59315,-118.326,3687.2,California
+Gardiner Basin,13,2011,8/18/2011,Sierra Nevada,36.82123,-118.466,3512.4,California
+Needham Mountain,12.8,2011,9/27/2011,Sierra Nevada,36.44837,-118.517,3502.4,California
+Upper Marble Fork,17.5,2011,8/31/2011,Sierra Nevada,36.60918,-118.653,3224.8,California
+Glen Pass,6,2011,8/19/2011,Sierra Nevada,36.79288,-118.408,3599.7,California
+Mount Ickes,13.8,2011,9/4/2011,Sierra Nevada,36.93394,-118.459,3586.2,California
+Lippincott,10.8,2008,9/18/2008,Sierra Nevada,36.53212,-118.559,3552,California
+Lippincott,14.1,2012,8/29/2012,Sierra Nevada,36.53212,-118.559,3552,California
+Upper Kern,16.9,2012,8/18/2012,Sierra Nevada,36.67136,-118.43,3654.1,California
+SPILLWAY LAKE,11.6,2008,9/16/2008,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,13.1,2009,9/10/2009,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,9.1,2010,9/22/2010,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,12.5,2011,8/29/2011,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,17.5,2012,9/16/2012,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,14.7,2013,8/21/2013,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,13,2014,8/7/2014,Sierra Nevada,37.84087,-119.233,3441.3,California
+SPILLWAY LAKE,12.2,2015,8/14/2015,Sierra Nevada,37.84087,-119.233,3441.3,California
+GRANITE LAKE UPPER,15,2008,9/15/2008,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,13.2,2009,9/21/2009,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,13.7,2010,9/6/2010,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,13.8,2011,9/19/2011,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,15.6,2012,8/23/2012,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,17.7,2013,8/20/2013,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,14.1,2014,9/4/2014,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,15.2,2015,8/4/2015,Sierra Nevada,37.92493,-119.277,3406.6,California
+GRANITE LAKE UPPER,11.7,2015,9/28/2015,Sierra Nevada,37.92493,-119.277,3406.6,California
+TEN LAKES 3,17.8,2008,9/18/2008,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,20.4,2009,8/12/2009,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,13.1,2010,9/21/2010,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,14,2011,8/16/2011,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,19,2012,8/21/2012,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,18.3,2013,8/22/2013,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,21,2014,8/17/2014,Sierra Nevada,37.90241,-119.53,2944.7,California
+TEN LAKES 3,18.6,2015,8/31/2015,Sierra Nevada,37.90241,-119.53,2944.7,California
+Edna Lake,15.5,2008,9/5/2008,Sierra Nevada,37.64632,-119.383,3276.1,California
+Edna Lake,15.3,2012,9/4/2012,Sierra Nevada,37.64632,-119.383,3276.1,California
+Tilden Lake,19.5,2008,8/19/2008,Sierra Nevada,38.09395,-119.619,2950.4,California
+Tilden Lake,22.6,2012,8/14/2012,Sierra Nevada,38.09395,-119.619,2950.4,California
+Breddle Puddle,16.8,2008,9/6/2008,Sierra Nevada,37.81038,-119.311,3210.7,California
+Breddle Puddle,15.4,2012,9/17/2012,Sierra Nevada,37.81038,-119.311,3210.7,California
+Breeze,23.2,2008,8/20/2008,Sierra Nevada,38.01058,-119.618,2331.5,California
+Breeze,23.5,2012,8/15/2012,Sierra Nevada,38.01058,-119.618,2331.5,California
+Adair Lake,21.5,2008,9/4/2008,Sierra Nevada,37.68417,-119.408,3213.8,California
+Adair Lake,15.7,2012,9/4/2012,Sierra Nevada,37.68417,-119.408,3213.8,California
+Kendrick,23.9,2008,8/22/2008,Sierra Nevada,38.04385,-119.771,2025.7,California
+TENAYA LAKE,17.7,2009,9/20/2009,Sierra Nevada,37.82647,-119.468,2736.3,California
+TENAYA LAKE,16.8,2014,8/13/2014,Sierra Nevada,37.82647,-119.468,2736.3,California
+TABLE LAKE,20.8,2009,8/19/2009,Sierra Nevada,37.98261,-119.564,2438.1,California
+TABLE LAKE,16.2,2014,9/30/2014,Sierra Nevada,37.98261,-119.564,2438.1,California
+No Name 1,10.9,2009,8/25/2009,Sierra Nevada,37.75755,-119.268,3462.9,California
+No Name 1,13.4,2014,9/2/2014,Sierra Nevada,37.75755,-119.268,3462.9,California
+No Name 2,21.9,2014,9/22/2014,Sierra Nevada,38.01933,-119.708,2348.7,California
+No Name 3,17.6,2009,8/13/2009,Sierra Nevada,37.8886,-119.509,2994.6,California
+No Name 3,18.7,2014,8/18/2014,Sierra Nevada,37.8886,-119.509,2994.6,California
+No Name 4,20.2,2009,8/17/2009,Sierra Nevada,37.98946,-119.359,3095.1,California
+No Name 4,15.1,2014,8/12/2014,Sierra Nevada,37.98946,-119.359,3095.1,California
+OSTRANDER LAKE,15.9,2010,9/9/2010,Sierra Nevada,37.62634,-119.551,2663.4,California
+OSTRANDER LAKE,18.6,2015,8/11/2015,Sierra Nevada,37.62634,-119.551,2663.4,California
+No Name 5,8.6,2010,9/22/2010,Sierra Nevada,37.83242,-119.238,3582.1,California
+No Name 5,9.5,2015,8/15/2015,Sierra Nevada,37.83242,-119.238,3582.1,California
+"GAYLOR LAKE, LOWER",11.6,2010,9/6/2010,Sierra Nevada,37.908,-119.286,3271.8,California
+"GAYLOR LAKE, LOWER",15.5,2015,8/6/2015,Sierra Nevada,37.908,-119.286,3271.8,California
+ARDETH LAKE,19.1,2010,8/18/2010,Sierra Nevada,38.04947,-119.694,2600.6,California
+ARDETH LAKE,18.4,2015,8/29/2015,Sierra Nevada,38.04947,-119.694,2600.6,California
+No Name 6,17,2010,8/17/2010,Sierra Nevada,38.11464,-119.548,3116.5,California
+No Name 6,17,2015,8/27/2015,Sierra Nevada,38.11464,-119.548,3116.5,California
+No Name 7,14.9,2011,9/7/2011,Sierra Nevada,37.77817,-119.361,3197.3,California
+ARNDT LAKE,16,2011,8/23/2011,Sierra Nevada,38.07669,-119.506,2867.8,California
+No Name 8,21.8,2011,8/17/2011,Sierra Nevada,38.08255,-119.796,2317.5,California
+MIDDLE SUNRISE LAKE,17.8,2011,8/31/2011,Sierra Nevada,37.805,-119.453,2864.7,California
+LITTLE MATTIE LAKE,18.8,2011,8/25/2011,Sierra Nevada,37.94326,-119.43,2976,California
+No Name 9,4.6,2011,9/6/2011,Sierra Nevada,37.7459,-119.318,3469.1,California
+No Name 9,13,2015,8/17/2015,Sierra Nevada,37.7459,-119.318,3469.1,California
+No Name 10,20.6,2011,8/18/2011,Sierra Nevada,38.05055,-119.806,2172.8,California
+Upper Ten Lakes,18.7,2012,8/21/2012,Sierra Nevada,37.8944,-119.522,3018.7,California
+Crystal,15.8,1992,,Sierra Nevada,37.593333,-119.0180556,2951,California
+Crystal,13.6,1991,,Sierra Nevada,37.593333,-119.0180556,2951,California
+Crystal,13.3,1993,,Sierra Nevada,37.593333,-119.0180556,2951,California
+Lost,16.5,1992,,Sierra Nevada,38.86027778,-120.0966667,2475,California
+Lost,20,1991,,Sierra Nevada,38.86027778,-120.0966667,2475,California
+Lost,13,1993,,Sierra Nevada,38.86027778,-120.0966667,2475,California
+Pear,18.4,1992,,Sierra Nevada,36.60055556,-118.6666667,2904,California
+Pear,14.1,1991,,Sierra Nevada,36.60055556,-118.6666667,2904,California
+Pear,15.3,1993,,Sierra Nevada,36.60055556,-118.6666667,2904,California
+Ruby,16.7,1992,,Sierra Nevada,37.41388889,-118.7708333,3390,California
+Ruby,10.9,1991,,Sierra Nevada,37.41388889,-118.7708333,3390,California
+Ruby,11.9,1993,,Sierra Nevada,37.41388889,-118.7708333,3390,California
+Spuller,15.6,1992,,Sierra Nevada,,,3131,California
+Spuller,13.9,1991,,Sierra Nevada,,,,California
+Spuller,6.9,1993,,Sierra Nevada,,,,California
+Blue Lake,21.9,2014,,Cascades ,46.737992,-121.678001,1352,Washington
+Blue Lake,24.1,2015,,Cascades ,46.737992,-121.678001,1352,Washington
+Blue Lake,22.2,2016,,Cascades ,46.737992,-121.678001,1352,Washington
+Blue Lake,22.5,2017,,Cascades ,46.737992,-121.678001,1352,Washington
+Blue Lake,22.9,2018,,Cascades ,46.737992,-121.678001,1352,Washington
+Blue Lake,22.8,2019,,Cascades ,46.737992,-121.678001,1352,Washington
+Blue Lake,21.6,2020,,Cascades ,46.737992,-121.678001,1352,Washington
+Bowan Lake,21.1,2009,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,21.1,2010,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,17.3,2011,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,19.3,2012,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,20.2,2013,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,21.2,2014,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,23.2,2015,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,20.8,2016,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,20.3,2017,,Cascades ,48.408199,-120.712131,1982,Washington
+Bowan Lake,22,2019,,Cascades ,48.408199,-120.712131,1982,Washington
+Crazy Lake,15,2010,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,11.9,2011,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,15.2,2012,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,18.3,2013,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,20.4,2014,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,23.7,2015,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,20.9,2016,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,19.6,2017,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,20.5,2018,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,21.7,2019,,Cascades ,47.619649,-123.280333,1457,Washington
+Crazy Lake,21.1,2020,,Cascades ,47.619649,-123.280333,1457,Washington
+Easy Ridge Lake,20.3,2009,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,16.3,2010,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,10.8,2011,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,16.3,2012,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,19.2,2013,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,16.9,2014,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,22.7,2015,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,20.1,2016,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,19.8,2017,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,18.3,2018,,Cascades ,48.857108,-121.43208,1680,Washington
+Easy Ridge Lake,20.9,2019,,Cascades ,48.857108,-121.43208,1680,Washington
+Ferry Lake,17.8,2008,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,23.4,2009,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,19.2,2010,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,14.6,2011,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,18.2,2012,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,19.9,2013,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,20.8,2014,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,23.7,2015,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,21,2016,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,21.6,2017,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,21.9,2018,,Olympic,47.853867,-123.597286,1434,Washington
+Ferry Lake,22.4,2019,,Olympic,47.853867,-123.597286,1434,Washington
+Gladys Lake,15.8,2010,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,14.6,2011,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,16.5,2012,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,17.2,2013,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,19.3,2014,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,22.6,2015,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,20.8,2016,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,20.8,2017,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,21.5,2018,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,20.9,2019,,Olympic,47.876771,-123.35787,1383,Washington
+Gladys Lake,20,2020,,Olympic,47.876771,-123.35787,1383,Washington
+Heather Lake,14.6,2006,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,15.1,2007,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,14.6,2008,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,19.5,2009,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,6.8,2010,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,5.5,2011,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,10.5,2012,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,14,2013,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,15,2014,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,21.2,2015,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,14.8,2016,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,16.7,2017,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,17.7,2018,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,16,2019,,Olympic,47.785119,-123.177913,1589,Washington
+Heather Lake,19.8,2020,,Olympic,47.785119,-123.177913,1589,Washington
+Hoh Lake,22.8,2006,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,16.8,2007,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,18.5,2008,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,20.7,2009,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,18.4,2010,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,17.9,2012,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,20,2013,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,20,2014,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,23.9,2015,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,20.6,2016,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,21.5,2017,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,21.7,2018,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,21.5,2019,,Olympic,47.898677,-123.786202,1385,Washington
+Hoh Lake,20.6,2020,,Olympic,47.898677,-123.786202,1385,Washington
+Lake Allen,18.8,2009,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,19.6,2010,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,17,2011,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,20.1,2012,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,23.4,2014,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,26.1,2015,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,23.9,2016,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,24.2,2017,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,24.4,2018,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,23.9,2019,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Allen,23.3,2020,,Cascades ,46.765039,-121.892846,1397,Washington
+Lake Connie,15.6,2006,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,18.3,2007,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,17.2,2008,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,18.7,2010,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,5.6,2011,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,15.8,2012,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,21.1,2013,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,26.5,2015,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,23,2016,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,21.8,2017,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,24,2018,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake Connie,23.5,2019,,Cascades ,47.523598,-123.592973,1300,Washington
+Lake LaCrosse,12.7,2010,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,12.6,2011,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,15.5,2012,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,19.8,2013,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,21,2014,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,24.5,2015,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,20.8,2016,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,20.6,2017,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,21.7,2018,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,21.8,2019,,Olympic,47.66484,-123.360435,1447,Washington
+Lake LaCrosse,20.7,2020,,Olympic,47.66484,-123.360435,1447,Washington
+Lake Sunup,21.8,2006,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,20,2007,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,20.3,2008,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,27,2009,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,21.1,2010,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,16.8,2011,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,21.5,2012,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,23.6,2013,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,25,2014,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,27.5,2015,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,23.6,2016,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,23.7,2017,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,25.5,2018,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,22.9,2019,,Olympic,47.531357,-123.486412,1224,Washington
+Lake Sunup,22,2020,,Olympic,47.531357,-123.486412,1224,Washington
+LH15,20,2009,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,19.7,2010,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,17.7,2011,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,20.2,2012,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,19.5,2013,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,20.4,2014,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,23.2,2015,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,20.9,2016,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,22.4,2017,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,23.2,2018,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,22.4,2019,,Cascades ,46.953421,-121.619053,1659,Washington
+LH15,22.3,2020,,Cascades ,46.953421,-121.619053,1659,Washington
+Lower Blum Lake,12.4,2008,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,16,2009,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,13,2010,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,10.6,2011,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,12.8,2012,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,14.8,2013,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,15.6,2014,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,19.5,2015,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,17.5,2016,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,18.5,2017,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,18.1,2018,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower Blum Lake,18.1,2019,,Cascades ,48.747994,-121.501064,1511,Washington
+Lower East Lake,14,2009,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,12.3,2010,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,9.3,2011,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,9.8,2012,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,15.2,2013,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,18.2,2015,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,15.5,2016,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,15.1,2017,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,17.7,2018,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower East Lake,17.9,2019,,Cascades ,48.890246,-121.330917,1664,Washington
+Lower Silent Lake,15.9,2009,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,13.6,2010,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,12.6,2011,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,12.3,2012,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,13.9,2013,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,15.1,2014,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,17.2,2015,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,15.8,2016,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,18.5,2017,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,15.8,2018,,Cascades ,48.546366,-120.834066,2046,Washington
+Lower Silent Lake,16.9,2019,,Cascades ,48.546366,-120.834066,2046,Washington
+LP19,19,2008,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,24,2009,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,22.4,2010,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,18.1,2011,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,19.8,2012,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,21.7,2013,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,24.1,2014,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,25.2,2015,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,22.8,2016,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,25.2,2017,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,24.9,2018,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,23.3,2019,,Cascades ,46.822836,-121.895026,1372,Washington
+LP19,22.7,2020,,Cascades ,46.822836,-121.895026,1372,Washington
+Milk Lake,14,2006,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,12.9,2007,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,14.6,2008,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,20.7,2009,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,9.8,2010,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,2.6,2011,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,10.5,2012,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,15,2013,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,16.5,2014,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,22.6,2015,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,17.1,2016,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,16,2017,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,17.8,2018,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,18,2019,,Olympic,47.624893,-123.206327,1435,Washington
+Milk Lake,19,2020,,Olympic,47.624893,-123.206327,1435,Washington
+Upper Deadwood Lake,19.7,2009,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,20.2,2010,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,19.1,2011,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,21.5,2012,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,22.1,2013,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,22.8,2014,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,25.5,2015,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,23.4,2016,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,23.6,2017,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,23.7,2018,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,23,2019,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Deadwood Lake,23.4,2020,,Cascades ,46.886542,-121.52208,1600,Washington
+Upper Palisades Lake,13.8,2008,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,17.7,2009,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,15.7,2010,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,17.1,2012,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,17.2,2013,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,18.6,2014,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,20.3,2015,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,19.1,2017,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,19.9,2018,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,19.7,2019,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Palisades Lake,19.3,2020,,Cascades ,46.950777,-121.593108,1785,Washington
+Upper Triplet Lake,18.2,2008,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,18.8,2009,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,15.7,2010,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,15.4,2011,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,17.7,2012,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,19.4,2013,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,20.6,2014,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,21.7,2015,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,17.9,2016,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,21.6,2017,,Cascades ,48.291077,-120.552334,1998,Washington
+Upper Triplet Lake,21.8,2018,,Cascades ,48.291077,-120.552334,1998,Washington
+Piburger Lake,21.4,1970,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.4,1972,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.2,1973,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,19.6,1974,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22.1,1975,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.5,1976,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20,1977,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,19,1978,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.6,1979,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,18.8,1980,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21,1981,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22.4,1982,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22,1983,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,18.8,1984,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.7,1985,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20,1986,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.6,1987,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.2,1988,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.3,1989,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.5,1990,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22.35,1991,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.7,1992,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,19.6,1993,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22.5,1994,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,23.1,1995,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.2,1996,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.5,1997,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.5,1998,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.65,1999,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.5,2000,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.5,2001,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22.3,2002,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,23.4,2003,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.9,2004,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21,2005,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,23.3,2006,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.8,2007,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,22.3,2008,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.7,2009,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.8,2010,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.3,2011,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,21.8,2012,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,23.6,2013,,Alps,47.194916,10.888754,913,Austria
+Piburger Lake,20.5,2014,,Alps,47.194916,10.888754,913,Austria
+The Loch,13,1982,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.5,1983,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12,1984,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12,1985,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,11.5,1986,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12,1987,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,11.5,1988,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.5,1990,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,10,1991,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12,1992,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,10.5,1993,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,15,1994,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13,1995,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13,1996,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12,1997,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13,1998,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.7,1999,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14,2000,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13.6,2001,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,15,2002,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.3,2003,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.6,2004,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.4,2005,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.7,2006,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.8,2007,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.4,2008,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,12.9,2009,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13.5,2010,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13.1,2011,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.1,2012,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13.8,2013,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13.5,2014,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.7,2015,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.3,2016,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,13.8,2017,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,15.5,2018,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.5,2019,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+The Loch,14.5,2020,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+Sky Pond,9,1982,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8,1983,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8,1984,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8,1985,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8,1986,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.5,1987,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9,1988,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8.3,1990,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8,1991,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9,1992,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.5,1994,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9,1996,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9,1997,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,11.1,2000,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.3,2001,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,12,2002,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,10.8,2007,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8.6,2008,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,7.7,2009,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.4,2010,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,7.6,2011,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.6,2012,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,10.2,2013,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8.3,2014,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.5,2015,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,10.8,2016,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,9.5,2017,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,11.3,2018,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,8.4,2019,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Sky Pond,10,2020,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Albion,13.06,2016,,Rocky Mountains,40.04682,-105.604,3345,Colorado
+Black,10.7,2016,,Rocky Mountains,40.26535,-105.641,3236,Colorado
+Blue,9.9,2016,,Rocky Mountains,40.08897,-105.62,3449,Colorado
+Blue2,17,2016,,Rocky Mountains,40.26799,-105.632,3408,Colorado
+Cony,8,2016,,Rocky Mountains,40.17298,-105.658,3508,Colorado
+Diamond,13.79,2016,,Rocky Mountains,39.9927,-105.65,3340,Colorado
+Finch,17,2016,,Rocky Mountains,40.18341,-105.593,3021,Colorado
+Forest,8.29,2016,,Rocky Mountains,39.92126,-105.674,3307,Colorado
+Frozen,9,2016,,Rocky Mountains,40.25771,-105.643,3529,Colorado
+GL1,13.58,2016,,Rocky Mountains,40.05096,-105.606,3425,Colorado
+GL1,11.95,2015,,Rocky Mountains,40.05096,-105.606,3425,Colorado
+Haiyaha,11.8,2016,,Rocky Mountains,40.30465,-105.662,3118,Colorado
+Isabelle,8.92,2016,,Rocky Mountains,40.06938,-105.619,3301,Colorado
+Jasper,9.63,2016,,Rocky Mountains,39.97909,-105.663,3301,Colorado
+Lion1,12,2016,,Rocky Mountains,40.23194,-105.639,3373,Colorado
+Lion2,12.06,2016,,Rocky Mountains,40.23765,-105.642,3478,Colorado
+The Loch,13.9,2016,,Rocky Mountains,40.2926,-105.656,3048,Colorado
+Long,12.23,2016,,Rocky Mountains,40.07236,-105.592,3253,Colorado
+Lost,16.49,2016,,Rocky Mountains,39.94961,-105.617,2987,Colorado
+Mills,19,2016,,Rocky Mountains,40.2896,-105.642,3030,Colorado
+Pear,14,2016,,Rocky Mountains,40.17674,-105.627,3225,Colorado
+RedDeer,13.69,2016,,Rocky Mountains,40.14274,-105.61,3163,Colorado
+Sky Pond,9.8,2016,,Rocky Mountains,40.27814,-105.668,3322,Colorado
+Snowbank,11.44,2016,,Rocky Mountains,40.24026,-105.645,3512,Colorado
+Thunder,12.2,2016,,Rocky Mountains,40.2222,-105.647,3225,Colorado
+UpperDiamond,8.75,2016,,Rocky Mountains,39.98829,-105.661,3463,Colorado
+UpperHutchenson,9.6,2016,,Rocky Mountains,40.17384,-105.648,3412,Colorado
+YankeeDoodle,14.92,2016,,Rocky Mountains,39.93752,-105.654,3261,Colorado
+Sentinel,16.3,2017,,Canadian Rockies,51.33473,-116.22076,2423,Alberta
+Redoubt,12.5,2017,,Canadian Rockies,51.47286,-116.07348,2393,Alberta
+Ptarmigan,12,2017,,Canadian Rockies,51.48398,-116.07667,2332,Alberta
+Oesa,5.8,2017,,Canadian Rockies,51.35469,-116.30299,2285,British Columbia
+Eiffel,7.5,2017,,Canadian Rockies,51.32117,-116.2438,2281,Alberta
+Hidden_Banff,10.2,2017,,Canadian Rockies,51.48528,-116.10902,2271,Alberta
+Hungabee,12.1,2017,,Canadian Rockies,51.3434,-116.31935,2243,British Columbia
+Baker,13.9,2017,,Canadian Rockies,51.4924,-116.04056,2207,Alberta
+Temple,3.4,2017,,Canadian Rockies,51.3649,-116.18128,2179,Alberta
+Schaffer,6.6,2017,,Canadian Rockies,51.34829,-116.34965,2170,British Columbia
+Upper Rowe,15,2017,,Canadian Rockies,49.05056,-114.05931,2168,Alberta
+Hamilton,6.7,2017,,Canadian Rockies,51.45555,-116.5782,2160,Alberta
+O'Brien,5.1,2017,,Canadian Rockies,51.28655,-116.08323,2118,Alberta
+Taylor,6.5,2017,,Canadian Rockies,51.29554,-116.09791,2057,Alberta
+Floe,5.4,2017,,Canadian Rockies,51.05269,-116.14223,2036,Alberta
+O'Hara,8.5,2017,,Canadian Rockies,51.35578,-116.33089,2014,British Columbia
+Celeste,12.6,2017,,Canadian Rockies,51.51846,-116.51482,1997,Alberta
+Annette_Banff,5.9,2017,,Canadian Rockies,51.36725,-116.20978,1966,Alberta
+Lower Rowe,9.5,2017,,Canadian Rockies,49.05337,-114.05028,1957,Alberta
+Summit_Waterton,3.3,2017,,Canadian Rockies,49.00701,-114.02517,1931,Alberta
+Boom,11.9,2017,,Canadian Rockies,51.26324,-116.09556,1893,Alberta
+Moraine,5.7,2017,,Canadian Rockies,51.32207,-116.18451,1887,Alberta
+Lost_Waterton,8.2,2017,,Canadian Rockies,49.14716,-114.14525,1875,Alberta
+Alderson,2.8,2017,,Canadian Rockies,49.02944,-113.975,1811,Alberta
+Sherbrooke,8.3,2017,,Canadian Rockies,51.45737,-116.38784,1803,Alberta
+Bertha,11.5,2017,,Canadian Rockies,49.02315,-113.94382,1774,Alberta
+Louise,9.5,2017,,Canadian Rockies,51.41255,-116.22688,1731,Alberta
+Lost_Banff,18.4,2017,,Canadian Rockies,51.47389,-116.2751,1692,Alberta
+Waterfowl,9.7,2017,,Canadian Rockies,51.84994,-116.63558,1670,Alberta
+Cameron,4.3,2017,,Canadian Rockies,49.00807,-114.04935,1660,Alberta
+Summit_Yoho,16.1,2017,,Canadian Rockies,51.45061,-116.29134,1634,British Columbia
+Olive,10.9,2017,,Canadian Rockies,50.67393,-115.93478,1631,Alberta
+Sink,18.9,2017,,Canadian Rockies,51.4502,-116.30879,1622,Alberta
+Herbert,11.4,2017,,Canadian Rockies,51.45954,-116.22289,1600,Alberta
+Mud,10.8,2017,,Canadian Rockies,51.44098,-116.17699,1600,Alberta
+Wapta,8.7,2017,,Canadian Rockies,51.43951,-116.34992,1595,Alberta
+Duchesnay,16.4,2017,,Canadian Rockies,51.52348,-116.50158,1595,Alberta
+Island,17.1,2017,,Canadian Rockies,51.39186,-116.11356,1570,Alberta
+Vista,11.1,2017,,Canadian Rockies,51.239,-116.02267,1567,Alberta
+Smith,7.6,2017,,Canadian Rockies,51.24967,-115.92569,1560,Alberta
+Crandell,10.6,2017,,Canadian Rockies,49.08681,-113.96743,1524,Alberta
+Golden,13.4,2017,,Canadian Rockies,52.89767,-118.32767,1485,Alberta
+J436,17.9,2017,,Canadian Rockies,52.90683,-118.32605,1455,Alberta
+Cutt,16.1,2017,,Canadian Rockies,52.9005,-118.33012,1455,Alberta
+Copper,14.8,2017,,Canadian Rockies,51.26052,-115.923,1434,Alberta
+Pilot,12.3,2017,,Canadian Rockies,51.22831,-115.81321,1408,Alberta
+Honeymoon,15.4,2017,,Canadian Rockies,52.55635,-117.67742,1405,Alberta
+Buck_Jasper,15.7,2017,,Canadian Rockies,52.55174,-117.66369,1405,Alberta
+Osprey,6.2,2017,,Canadian Rockies,52.55911,-117.66943,1387,Alberta
+Indian Springs W48B,10.2,2017,,Canadian Rockies,49.12871,-113.87868,1351,Alberta
+Indian Springs W48A,12.5,2017,,Canadian Rockies,49.12758,-113.87846,1351,Alberta
+Indian Springs W47,13.9,2017,,Canadian Rockies,49.13178,-113.87363,1348,Alberta
+Christine,15.3,2017,,Canadian Rockies,52.88352,-118.24769,1338,Alberta
+Dorothy,14.3,2017,,Canadian Rockies,52.88287,-118.22858,1336,Alberta
+Buffalo Creek Pond,14.6,2017,,Canadian Rockies,49.12789,-113.85491,1323,Alberta
+Little Honeymoon,13.4,2017,,Canadian Rockies,52.56028,-117.6849,1310,Alberta
+Emerald,12.5,2017,,Canadian Rockies,51.4429,-116.53221,1310,Alberta
+Virl,16.7,2017,,Canadian Rockies,52.87797,-118.23414,1305,Alberta
+Iris,12.3,2017,,Canadian Rockies,52.87787,-118.22113,1302,Alberta
+K13,16.1,2017,,Canadian Rockies,50.88237,-116.08289,1295,Alberta
+Temporary Pond W60,17.2,2017,,Canadian Rockies,49.06848,-113.88983,1293,Alberta
+Lonesome,13.9,2017,,Canadian Rockies,49.07392,-113.89126,1280,Alberta
+Linnet,15.8,2017,,Canadian Rockies,49.06174,-113.90487,1280,Alberta
+Maskinongne,13.7,2017,,Canadian Rockies,49.10776,-113.83625,1276,Alberta
+Allison,15.2,2017,,Canadian Rockies,49.12269,-113.81429,1274,Alberta
+Cobb,12.2,2017,,Canadian Rockies,50.66073,-115.87626,1260,Alberta
+Celestine,15.8,2017,,Canadian Rockies,53.18702,-118.04678,1260,Alberta
+Leach,15.1,2017,,Canadian Rockies,52.69312,-117.90443,1237,Alberta
+Horseshoe,10.6,2017,,Canadian Rockies,52.69869,-117.86578,1230,Alberta
+K20,17.6,2017,,Canadian Rockies,50.83494,-116.03615,1218,Alberta
+Cabin,15.6,2017,,Canadian Rockies,52.87837,-118.13303,1217,Alberta
+Mina,12.1,2017,,Canadian Rockies,52.88302,-118.1206,1214,Alberta
+Moab,13.4,2017,,Canadian Rockies,52.6611,-117.95584,1204,Alberta
+Hibernia,16,2017,,Canadian Rockies,52.87104,-118.14312,1198,Alberta
+Kootenay Pond,15.2,2017,,Canadian Rockies,50.89246,-116.04203,1188,Alberta
+Pyramid,13,2017,,Canadian Rockies,52.92352,-118.09888,1186,Alberta
+Dog,3.2,2017,,Canadian Rockies,50.7807,-115.92896,1184,Alberta
+Patricia,15.6,2017,,Canadian Rockies,52.90402,-118.10121,1180,Alberta
+Mile_16,16.1,2017,,Canadian Rockies,52.70923,-117.91063,1174,Alberta
+Caledonia,12.4,2017,,Canadian Rockies,52.86755,-118.16373,1161,Alberta
+Marjorie,16.6,2017,,Canadian Rockies,52.86745,-118.13158,1143,Alberta
+Beauvert,11.9,2017,,Canadian Rockies,52.88191,-118.0614,1030,Alberta
+Annette_Jasper,16.2,2017,,Canadian Rockies,52.9016,-118.04828,1024,Alberta
+Edith,17.3,2017,,Canadian Rockies,52.91028,-118.04142,1024,Alberta

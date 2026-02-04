@@ -9,7 +9,7 @@ source("scripts/01_elevation_climate.R")
 # dev.off()
 
 # Load air temperature time series (emerald lake weather station 2016)-------------------------------------------
-load('data/02_AirTdaily.Rdata')
+load('data/original/02_AirTdaily.Rdata')
 # plot(AirTdaily$doy, AirTdaily$AirTemp_C_Avg)
 
 
@@ -201,7 +201,7 @@ results
 ##Save results-------------------------------------------------------------------------------------
 results_lkarea_topo <- results
 
-save(results_lkarea_topo,file='data/04_mglm_output_lkarea_topo.Rdata')
+save(results_lkarea_topo,file='data/processed/04_mglm_output_lkarea_topo.Rdata')
 
 #Plot maximum summer lake temperature (upper mixed layer) versus elevation   
 png('output/03_mglm_mosaic3_lkarea_topo_temp.png',height=4, width=6,units='in',res=600)
@@ -229,17 +229,17 @@ for (i in 4:length(column.names)){
 ##Load output from the elevation gradient and mosaic models for temperature:
 
 #null model (elevation only)
-load('data/03_mglm_output_nullmodel.Rdata')
+load('data/original/03_mglm_output_nullmodel.Rdata')
 
 #variable lake surface area model (elevation + SA): Mosaic 1
-load('data/03_mglm_output_lkarea.Rdata')
+load('data/original/03_mglm_output_lkarea.Rdata')
 
 #variable SA and topography (elevation + SA + topography): Mosaic 2
-load('data/03_mglm_output_lkarea_topo.Rdata')
+load('data/original/03_mglm_output_lkarea_topo.Rdata')
 
 ##Load data from real lakes for validation
 
-real.data <- read.csv('data/01_Temp_model_validation_data.csv',header=TRUE)
+real.data <- read.csv('data/original/01_Temp_model_validation_data.csv',header=TRUE)
 head(real.data)
 #exclude lake from the alps
 real.data <- real.data[-which(real.data$Mt_range=='Alps'),]

@@ -8,7 +8,7 @@ source("scripts/00_setup.R")
 source("scripts/01_elevation_climate.R")
 
 
-full.data<-read.csv("data/zoop_env_lake_surfaceonly_1.20.22.csv",header=T)
+full.data<-read.csv("data/original/zoop_env_lake_surfaceonly_1.20.22.csv",header=T)
 #subset for Cascade lakes (MORA,NOCA,GPNF)
 data<-subset(full.data,region=="MORA"|region=="NOCA"|region=="GP NF"|region=="MH NF"|region=="DES NF"|region=="WILL NF")
 val.data<-subset(full.data,region !="MORA" & region !="NOCA" & region !="GP NF" & region !="MH NF" & region !="DES NF" & region !="WILL NF" & region !="BC EAST" & region !="BC INTERIOR"& region !="BC WEST" & region !="FOOT" & region !="GLAC" & region !="KANA" & region !="MASS" & region !="UMQ NF" & region !="WIN NF")
@@ -208,9 +208,9 @@ panel
 #grid.arrange(plot_null,plot_model2,plot_model3,ncol=3)
 #ggarrange(plot_null,plot_model2,plot_model3,ncol=3) #equal width panels from package 'egg'
 
-write.csv(rich.model2,"data/rich.model2.11.17.21.csv")
-write.csv(rich.model3,"data/rich.model3.11.17.21.csv")
-write.csv(rich.null,"data/rich.null.11.17.21.csv")
+write.csv(rich.model2,"data/processed/rich.model2.11.17.21.csv")
+write.csv(rich.model3,"data/processed/rich.model3.11.17.21.csv")
+write.csv(rich.null,"data/processed/rich.null.11.17.21.csv")
 
 # Add validation data to plot (a)---------------------------------------------------------
 

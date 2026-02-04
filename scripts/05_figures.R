@@ -216,7 +216,7 @@ plot_Dval_synoptic
 #use new df from A. Strecker - testing_lakes.csv 
 #update zoop data regional groupings based on "super_region" column in testing_lakes.csv (Feb 2026 update; groupings provided by A. Strecker)
 
-val.data.new <- read.csv("data/testing_lakes.csv", header=T)
+val.data.new <- read.csv("data/original/testing_lakes.csv", header=T)
 
 plot_Rval_synoptic <- ggplot()+
 

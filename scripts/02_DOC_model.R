@@ -95,8 +95,8 @@ DOCRun1Std <- as.matrix(apply(DOCRun1Array,1,sd, na.rm=T))
 DOCRunMod1 <- as.data.frame(cbind(elevation,DOCRun1Mean,DOCRun1Std))
 colnames(DOCRunMod1) <-  c("elevation", "DOCRunmean","DOCRunstd")
 
-write.csv(DOCRun1Array, file="data/DOCRun.csv")
-write.csv(VegProp, file="data/VegProp.csv")
+write.csv(DOCRun1Array, file="data/processed/DOCRun.csv")
+write.csv(VegProp, file="data/processed/VegProp.csv")
 
 ## Model 1 plots  ---------------------------------------------------------------
 plot_DOC_M1 <- ggplot(DOCRunMod1, aes(x=elevation, y=DOCRunmean)) +
@@ -187,7 +187,7 @@ grid.arrange(plot_DOCnull,plot_DOC_M1, plot_DOC_M2,ncol=3, heights=c(2,2))
 
 # try adding validation data to plot (a)
 
-ValData<-read.csv('data/ValData.csv', header=TRUE) #validation data from mnt ranges
+ValData<-read.csv('data/original/ValData.csv', header=TRUE) #validation data from mnt ranges
 ValData<-as.data.frame(ValData)
 colnames(ValData)= c("Region", "Elevation","Eofbase","DOC")
 

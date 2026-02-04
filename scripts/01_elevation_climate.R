@@ -7,8 +7,8 @@
 source("scripts/00_setup.R")
 
 #load hypothetical gradient in landcover - Rock vs Forest--------------------------------------------------------
-BarrenVeg<-read.csv('data/BarrenVeg.csv', header=TRUE) #mean + stdev of landcover vs elevation from EPA NLS 
-MixedVeg<-read.csv('data/MixedVeg.csv', header=TRUE) #mean and stdev on veg type vs elevation from EPA NLS
+BarrenVeg<-read.csv('data/original/BarrenVeg.csv', header=TRUE) #mean + stdev of landcover vs elevation from EPA NLS 
+MixedVeg<-read.csv('data/original/MixedVeg.csv', header=TRUE) #mean and stdev on veg type vs elevation from EPA NLS
 
 ## Constants ------------------------------------------------------------------------------------------------------------
 elevation <-seq(100,4000,100)

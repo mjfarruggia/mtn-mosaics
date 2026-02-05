@@ -69,3 +69,9 @@ panelLetter.normal <- data.frame(
   hjustvar = c(-0.2),
   vjustvar = c(1.5)
 )
+
+
+# Bin by elevation----
+elev_bin <- function(elev, bin = 250) {
+  floor(elev / bin) * bin
+}

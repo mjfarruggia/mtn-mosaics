@@ -544,7 +544,7 @@ rich_cv <- val.data.new %>%
     cv = sd(richness, na.rm = TRUE) / mean(richness, na.rm = TRUE),
     n_lakes = n(),
     .groups = "drop")%>%
-  filter(n_lakes >=4)
+  filter(n_lakes >=4) 
 
 
 rich_cv_plot <- ggplot(rich_cv, aes(binned_elev, cv, color = Region, group = Region)) +
@@ -592,5 +592,5 @@ empirical_cv_with_legend <- cowplot::plot_grid(empirical_cv_plots, legend_only_p
 empirical_cv_with_legend
 
 
-ggsave("output/empirical_and_cv_02042026.png",plot=empirical_cv_with_legend,width=14, height=16, units='in')
+ggsave("output/empirical_and_cv_02042026.png",plot=empirical_cv_with_legend,width=14, height=16, units='in') 
 

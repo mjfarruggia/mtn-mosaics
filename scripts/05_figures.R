@@ -439,14 +439,14 @@ legend_only_plot <- ggplot(legend_data, aes(x = x, y = y, color = Region)) +
   scale_color_manual(values = mtn_colors) +
   theme_void() + 
   guides(color = guide_legend(
-    nrow = 3, byrow = TRUE, 
+    nrow = 1, byrow = TRUE, 
     title.position = "top", title.hjust = 0.5,
     override.aes = list(alpha = 1, linetype = 1, shape = NA) 
   )) +
   theme(
     legend.position = "bottom", 
-    legend.title = element_text(face = "bold", size = 12),
-    legend.text  = element_text(size = 10),
+    legend.title = element_text(face = "bold", size = 16),
+    legend.text  = element_text(size = 14),
     legend.key.width = unit(0.5, "cm"),
     legend.spacing.x = unit(0.1, "cm"),
     # Keep the background white for the assembly
@@ -500,7 +500,7 @@ temp_cv_plot <- ggplot(temp_cv, aes(binned_elev, cv, color = Region, group = Reg
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank())+
   labs(x = " ",
-    y = "CoV - Temp(°C)")
+    y = "CoV - Temp")
 temp_cv_plot
 
 ## fig S3: DOC CoV x elevation, colored by mtn range------------------------------------------------------------------------
@@ -533,7 +533,7 @@ doc_cv_plot <- ggplot(doc_cv, aes(binned_elev, cv, color = Region, group = Regio
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())+
   labs(x = " ",
-       y = "CoV - DOC (mg/L)")
+       y = "CoV - DOC")
 doc_cv_plot
 
 ## fig S4: richness CoV x elevation, colored by mtn range-------------------------------------------------------------------
@@ -581,14 +581,14 @@ doc_cv_no_legend <- doc_cv_plot + theme(legend.position = "none",
                                                   plot.margin = margin(t = 3, r = 20, b = 3, l = 5))
 
 rich_cv_no_legend <- rich_cv_plot + theme(legend.position = "none",
-                                                  plot.margin = margin(t = 3, r = 20, b = 0.5, l = 5))
+                                                  plot.margin = margin(t = 3, r = 20, b = 0, l = 5))
 
 cowplot::plot_grid(plot_Tval_no_legend ,temp_cv_no_legend, plot_Dval_no_legend,doc_cv_no_legend, plot_Rval_no_legend,rich_cv_no_legend,  ncol=2)
 
 #add legend below all of them
 empirical_cv_plots <- cowplot::plot_grid(plot_Tval_no_legend, temp_cv_no_legend, plot_Dval_no_legend, doc_cv_no_legend, plot_Rval_no_legend, rich_cv_no_legend, ncol = 2)
 
-empirical_cv_with_legend <- cowplot::plot_grid(empirical_cv_plots, legend_only_plot, ncol = 1, rel_heights = c(1, 0.1))
+empirical_cv_with_legend <- cowplot::plot_grid(empirical_cv_plots, legend_only_plot, ncol = 1, rel_heights = c(1, 0.05))
 empirical_cv_with_legend
 
 

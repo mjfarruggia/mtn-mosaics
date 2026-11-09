@@ -241,3 +241,6 @@ grid.arrange(plot_DOCnull,plot_DOC_M1, plot_Dval, ncol=3, heights=c(4.5,3))
 
 #grid.arrange(plot_DOCnull,plot_DOC_M1, plot_DOC_M2, plot_Dval, ncol=4)
 
+
+
+

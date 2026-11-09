@@ -2,7 +2,7 @@
 ## 05_figures.R
 ## All figures: DOC, temperature, zooplankton, synthesis
 ## Authors: Adrianne Smits, Janice Brahney, Angela Strecker, MJ Farruggia
-## Last Updated: Feb 2026 by MJ Farruggia
+## Last Updated: Oct 2026 by MJ Farruggia
 ############################################################
 
 source("scripts/00_setup.R", local = FALSE)
@@ -291,178 +291,163 @@ combined_modelsonly<-(plot_Exnull+plot_Ex_M1+plot_Tval2) / #first row
 combined_modelsonly
 
 #save
-  ggsave("output/models_only_gridplot_02192026.png",plot=combined_modelsonly,width=10, height=8, units='in')
+  # ggsave("output/models_only_gridplot_02192026.png",plot=combined_modelsonly,width=10, height=8, units='in')
 
 
+##fig 3:
 
 ## Empirical data only -----------------------------------------------------------------------------------------------------
-
-mtn_colors <- c(     #this is an NCEAS scicomm colorblind friendly recommended palette https://www.nceas.ucsb.edu/sites/default/files/2022-06/Colorblind%20Safe%20Color%20Schemes.pdf
-
-  "Yukon" = "#332288",
-  "Northern Rockies" = "#117733",
-  "Columbia" = "#44AA99",
-  "Olympic" = "#88CCEE",
-  "Cascades" = "#DDCC77",
-  "Siskiyou" = "#AA4499",
-  "Southern Rockies" = "#CC6677",
-  "Sierra Nevada" = "#882255",
-  "Alps and Pyrenees" = "#999933"
-)
-      #color ramp arranged roughly North --> South??
-
-###temp-----
-#reclassify mountain ranges to a common grouping (see colors above)
-real.means <- real.means %>%
-  mutate(Region = stringr::str_trim(Region))
-
-real.means <- real.means %>%
-  mutate(Region = case_when(
-    Region == "Canadian Rockies"   ~ "Northern Rockies",
-    Region == "Rocky Mountains"    ~ "Southern Rockies",
-    TRUE                           ~ Region  
-  ))
-
-real.means$Region <- factor(real.means$Region, levels = c("Yukon", "Northern Rockies", "Columbia", 
-                                       "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
-
-plot_Tval_synoptic <- ggplot()+
-  #synoptic data 
-  geom_point(data=real.means, aes(x=Elevation, y=Max_T_mean,color=Region, shape=Region, fill =Region), color="white",size=2)+
-  scale_shape_manual(values=c(21,21,21,21,21))+
-  scale_color_manual(values = mtn_colors)+
-  scale_fill_manual(values = mtn_colors)+
-  geom_smooth(data=real.means,aes(x=Elevation, y=Max_T_mean, color = Region, show.legend=F),formula = 'y ~ x', method = "lm", se=F, size=2) +
-  #models- remove or make lighter and in background
-    geom_line(data=results_lkarea_topo,  aes(x=Elevation, y=lkareatopo_mean), size=2, alpha=0.2)+
-    geom_ribbon(data=results_lkarea_topo, aes(x=Elevation, ymin=lkareatopo_min, ymax=lkareatopo_max), alpha=0.05) +
-  #aesthetics 
-  labs(x=" ", y="Temperature (°C)")+
-  scale_y_continuous(limits=c(5,30),breaks=seq(5,30,5)) +
-  # scale_x_continuous(limits=c(0,4000),breaks=seq(0,4000,500))+
-  scale_x_continuous(limits = c(500, 3750), breaks = seq(500, 3750, by = 250)) +
-  theme(legend.key.size = unit(0.25, 'cm'))+
-  # annotate("text", x=1450, y =28.5, label= stringr::str_wrap("C: Lake Area + Topo", width = 25), fontface="bold")+  
-  theme_bw(base_size = 16) +
-  theme(axis.text.x=element_blank(),
-        axis.text = element_text(size = 16),
-        axis.title = element_text(size = 16),
-        legend.text = element_text(size = 16),
-        legend.title= element_text(size = 16),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank())+
-  guides(color = guide_legend(nrow = 3, byrow = TRUE, override.aes = list(shape = 21, size = 3)),
-         fill = "none", 
-         shape = "none")
-plot_Tval_synoptic
-
-
-###DOC-----
-#reclassify mountain ranges to a common grouping (see colors above)
-ValData <- ValData %>%
-  mutate(Region = stringr::str_trim(Region))
-
-ValData <- ValData %>%
-  mutate(Region = case_when(
-    Region == "Canadian Rockies"  ~ "Northern Rockies",
-    Region == "N. Rocky"          ~ "Northern Rockies",
-    Region == "Rocky Mountains"   ~ "Southern Rockies",
-    Region == "S. Rocky"          ~ "Southern Rockies",
-    Region == "Uintas"            ~ "Southern Rockies",
-    Region == "Wind River"        ~ "Southern Rockies",
-    Region == "Yellowstone"       ~ "Southern Rockies",
-    Region == "Cascades"          ~ "Cascades",
-    Region == "Columbia"          ~ "Columbia",
-    Region == "Sierra Nevada"     ~ "Sierra Nevada",
-    Region == "Alps and Pyrenees" ~ "Alps and Pyrenees",
-    TRUE                          ~ Region  
-  ))
-
-ValData$Region <- factor(ValData$Region, levels = c("Yukon", "Northern Rockies", "Columbia", 
-                                                          "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
-
-plot_Dval_synoptic <- ggplot()+
-  # 
-  #synoptic data - plot
-  geom_point(data=ValData, aes(x=Elevation, y=DOC,color=Region, shape=Region, fill =Region), color="white",size=2)+
-  scale_shape_manual(values=c(21,21,21,21,21,21))+
-  #scale_fill_viridis(discrete = TRUE) +
-  #scale_color_viridis(discrete = TRUE, option = "D")+
-  scale_color_manual(values = mtn_colors)+
-  scale_fill_manual(values = mtn_colors)+
-  geom_smooth(data=ValData, aes(x=Elevation, y=DOC, color = Region, fill = Region), method = "lm", se=F, size=2) +
-  #
-  #Models - remove or make lighter and in background
-  geom_line(data=DOCRunMod2, aes(x=elevation,y=DOCRunmean), size=2, alpha=0.2)+
-  geom_ribbon(data=DOCRunMod2, aes(x=elevation, ymin=DOCRun2Min, ymax=DOCRun2Max), alpha=0.05) +
-  #Aesthetics
-  labs(x= " ",y="DOC (mg/L)")+
-  scale_y_continuous(limits=c(0,25),breaks=seq(0,25,5)) +
-  # scale_x_continuous(limits=c(0,4000),breaks=seq(0,4000,500))+
-  scale_x_continuous(limits = c(500, 3750), breaks = seq(500, 3750, by = 250)) +
-  theme_bw(base_size = 16) +
-  theme(axis.text.x=element_blank(),
-        axis.text = element_text(size = 16),
-        axis.title = element_text(size = 16),
-        legend.text = element_text(size = 16),
-        legend.title= element_text(size = 16),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank())+
+  mtn_colors <- c(     #this is an NCEAS scicomm colorblind friendly recommended palette https://www.nceas.ucsb.edu/sites/default/files/2022-06/Colorblind%20Safe%20Color%20Schemes.pdf
+    
+    "Yukon" = "#332288",
+    "Northern Rockies" = "#117733",
+    "Columbia" = "#44AA99",
+    "Olympic" = "#88CCEE",
+    "Cascades" = "#DDCC77",
+    "Siskiyou" = "#AA4499",
+    "Southern Rockies" = "#CC6677",
+    "Sierra Nevada" = "#882255",
+    "Alps and Pyrenees" = "#999933"
+  )
+  #color ramp arranged roughly North --> South??
   
-  guides(color = guide_legend(nrow = 3, byrow = TRUE, override.aes = list(shape = 21, size = 3)),
-         fill = "none", 
-         shape = "none")
-      
-plot_Dval_synoptic
-
-#zooplankton -----
- 
-#use new df from A. Strecker - testing_lakes.csv 
-#update zoop data regional groupings based on "super_region" column in testing_lakes.csv (Feb 2026 update; groupings provided by A. Strecker)
-
-val.data.new <- read.csv("data/original/testing_lakes.csv", header=T)
-val.data.new <- val.data.new %>% rename("Region" = "super_region")
-val.data.new$Region <- factor(val.data.new$Region, levels = names(mtn_colors))
-
-val.data.new$Region <- factor(val.data.new$Region, levels = c("Yukon", "Northern Rockies", "Columbia", 
-                                                    "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
-
-
-plot_Rval_synoptic <- ggplot()+
-  #synoptic data -plot
-  geom_point(data=val.data.new, aes(x=ELEV_MASL, y=richness,color=Region, fill=Region, shape=Region), color="white",size=2)+
-   scale_shape_manual(values=c(21,21,21,21,21))+
-  #scale_fill_viridis(discrete = TRUE) +
-  #scale_color_viridis(discrete = TRUE, option = "D")+
-  scale_color_manual(values=mtn_colors)+
-  scale_fill_manual(values=mtn_colors)+
-  geom_smooth(data=val.data.new, aes(x=ELEV_MASL, y=richness, color = Region, fill = Region, show.legend=F), method = "lm", se=F, size=2) +
-  # 
-  #Models - remove or make lighter and in background
-  geom_line(data=rich.model3,  aes(x=elevation, y=rich.model3.mean), size=2, alpha=0.2)+
-  geom_ribbon(data=rich.model3, aes(x=elevation, ymin=rich.model3.mean-rich.model3.std, ymax=rich.model3.mean+rich.model3.std), alpha=0.05) +
+  ###temp-----
+  #reclassify mountain ranges to a common grouping (see colors above)
+  real.means <- real.means %>%
+    mutate(Region = stringr::str_trim(Region))
   
-  #Aesthetics
-  labs(x="Elevation (m)", y="Zooplankton Richness", color="Region", fill="Region", shape="Region")+
-  #labs(title="Temp., Temp. + Area; Synoptic Data") +
-  scale_y_continuous(limits=c(0,15),breaks=seq(0,15,2)) +
-  # scale_x_continuous(limits=c(00,4000),breaks=seq(000,4000,500))+
-  scale_x_continuous(limits = c(500, 3750), breaks = seq(500, 3750, by = 250)) +
-  theme_bw(base_size = 16) +
-  theme(
-        axis.text = element_text(size = 16),
-        axis.title = element_text(size = 16),
-        legend.text = element_text(size = 16),
-        legend.title= element_text(size = 16),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        axis.text.x = element_text(angle = 45, hjust = 1))+
-  guides(color = guide_legend(nrow = 3, byrow = TRUE, override.aes = list(shape = 21, size = 3)),
-         fill = "none", 
-         shape = "none") 
-plot_Rval_synoptic
-
-
+  real.means <- real.means %>%
+    mutate(Region = case_when(
+      Region == "Canadian Rockies"   ~ "Northern Rockies",
+      Region == "Rocky Mountains"    ~ "Southern Rockies",
+      TRUE                           ~ Region  
+    ))
+  
+  real.means$Region <- factor(real.means$Region, levels = c("Yukon", "Northern Rockies", "Columbia", 
+                                                            "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
+  
+  plot_Tval_synoptic <- ggplot()+
+    #synoptic data 
+    geom_point(data=real.means, aes(x=Elevation, y=Max_T_mean, color=Region, shape=Region), size=2, stroke=1.5)+
+    scale_shape_manual(values=c(0,1,2,5,6,7,8,9,10), breaks=levels(real.means$Region), name="Region")+
+    scale_color_manual(values=mtn_colors, breaks=levels(real.means$Region), name="Region")+
+    geom_smooth(data=real.means, aes(x=Elevation, y=Max_T_mean, color=Region), formula='y ~ x', method="lm", se=F, size=2, show.legend=F)+
+    #models- remove or make lighter and in background
+    geom_line(data=results_lkarea_topo, aes(x=Elevation, y=lkareatopo_mean), size=2, alpha=0.2)+
+    geom_ribbon(data=results_lkarea_topo, aes(x=Elevation, ymin=lkareatopo_min, ymax=lkareatopo_max), alpha=0.05)+
+    #aesthetics 
+    labs(x=" ", y="Temperature (°C)")+
+    scale_y_continuous(limits=c(5,30), breaks=seq(5,30,5))+
+    scale_x_continuous(limits=c(500,3750), breaks=seq(500,3750,by=250))+
+    theme(legend.key.size=unit(0.25,'cm'))+
+    theme_bw(base_size=16)+
+    theme(axis.text.x=element_blank(),
+          axis.text=element_text(size=16),
+          axis.title=element_text(size=16),
+          legend.text=element_text(size=16),
+          legend.title=element_text(size=16),
+          panel.grid.major=element_blank(),
+          panel.grid.minor=element_blank())
+  plot_Tval_synoptic
+  
+  ###DOC-----
+  #reclassify mountain ranges to a common grouping (see colors above)
+  ValData <- ValData %>%
+    mutate(Region = stringr::str_trim(Region))
+  
+  ValData <- ValData %>%
+    mutate(Region = case_when(
+      Region == "Canadian Rockies"  ~ "Northern Rockies",
+      Region == "N. Rocky"          ~ "Northern Rockies",
+      Region == "Rocky Mountains"   ~ "Southern Rockies",
+      Region == "S. Rocky"          ~ "Southern Rockies",
+      Region == "Uintas"            ~ "Southern Rockies",
+      Region == "Wind River"        ~ "Southern Rockies",
+      Region == "Yellowstone"       ~ "Southern Rockies",
+      Region == "Cascades"          ~ "Cascades",
+      Region == "Columbia"          ~ "Columbia",
+      Region == "Sierra Nevada"     ~ "Sierra Nevada",
+      Region == "Alps and Pyrenees" ~ "Alps and Pyrenees",
+      TRUE                          ~ Region  
+    ))
+  
+  ValData$Region <- factor(ValData$Region, levels = c("Yukon", "Northern Rockies", "Columbia", 
+                                                      "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
+  
+  plot_Dval_synoptic <- ggplot()+
+    # 
+    #synoptic data - plot
+    geom_point(data=ValData, aes(x=Elevation, y=DOC, color=Region, shape=Region), size=2, stroke=1.5)+
+    scale_shape_manual(values=c(0,1,2,5,6,7,8,9,10), breaks=levels(ValData$Region), name="Region", drop=FALSE)+
+    #scale_fill_viridis(discrete = TRUE) +
+    #scale_color_viridis(discrete = TRUE, option = "D")+
+    scale_color_manual(values=mtn_colors, breaks=levels(ValData$Region), name="Region", drop=FALSE)+
+    geom_smooth(data=ValData, aes(x=Elevation, y=DOC, color=Region), method="lm", se=F, size=2, show.legend=F)+
+    #
+    #Models - remove or make lighter and in background
+    geom_line(data=DOCRunMod2, aes(x=elevation,y=DOCRunmean), size=2, alpha=0.2)+
+    geom_ribbon(data=DOCRunMod2, aes(x=elevation, ymin=DOCRun2Min, ymax=DOCRun2Max), alpha=0.05) +
+    #Aesthetics
+    labs(x= " ",y="DOC (mg/L)")+
+    scale_y_continuous(limits=c(0,25),breaks=seq(0,25,5)) +
+    # scale_x_continuous(limits=c(0,4000),breaks=seq(0,4000,500))+
+    scale_x_continuous(limits = c(500, 3750), breaks = seq(500, 3750, by = 250)) +
+    theme_bw(base_size = 16) +
+    theme(axis.text.x=element_blank(),
+          axis.text = element_text(size = 16),
+          axis.title = element_text(size = 16),
+          legend.text = element_text(size = 16),
+          legend.title= element_text(size = 16),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank())+
+    guides(color = guide_legend(nrow = 3, byrow = TRUE))
+  
+  plot_Dval_synoptic
+  
+  #zooplankton -----
+  
+  #use new df from A. Strecker - testing_lakes.csv 
+  #update zoop data regional groupings based on "super_region" column in testing_lakes.csv (Feb 2026 update; groupings provided by A. Strecker)
+  
+  
+  val.data.new <- read.csv("data/original/testing_lakes.csv", header=T)
+  val.data.new <- val.data.new %>% rename("Region" = "super_region")
+  val.data.new$Region <- factor(val.data.new$Region, levels = names(mtn_colors))
+  val.data.new$Region <- factor(val.data.new$Region, levels = c("Yukon", "Northern Rockies", "Columbia", 
+                                                                "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
+  
+  plot_Rval_synoptic <- ggplot()+
+    #synoptic data -plot
+    geom_point(data=val.data.new, aes(x=ELEV_MASL, y=richness, color=Region, shape=Region), size=2, stroke=1.5)+
+    scale_shape_manual(values=c(0,1,2,5,6,7,8,9,10), breaks=levels(val.data.new$Region), name="Region", drop=FALSE)+
+    #scale_fill_viridis(discrete = TRUE) +
+    #scale_color_viridis(discrete = TRUE, option = "D")+
+    scale_color_manual(values=mtn_colors, breaks=levels(val.data.new$Region), name="Region", drop=FALSE)+
+    geom_smooth(data=val.data.new, aes(x=ELEV_MASL, y=richness, color=Region), method="lm", se=F, size=2, show.legend=F) +
+    # 
+    #Models - remove or make lighter and in background
+    geom_line(data=rich.model3,  aes(x=elevation, y=rich.model3.mean), size=2, alpha=0.2)+
+    geom_ribbon(data=rich.model3, aes(x=elevation, ymin=rich.model3.mean-rich.model3.std, ymax=rich.model3.mean+rich.model3.std), alpha=0.05) +
+    
+    #Aesthetics
+    labs(x="Elevation (m)", y="Zooplankton Richness", color="Region", shape="Region")+
+    #labs(title="Temp., Temp. + Area; Synoptic Data") +
+    scale_y_continuous(limits=c(0,15),breaks=seq(0,15,2)) +
+    # scale_x_continuous(limits=c(00,4000),breaks=seq(000,4000,500))+
+    scale_x_continuous(limits = c(500, 3750), breaks = seq(500, 3750, by = 250)) +
+    theme_bw(base_size = 16) +
+    theme(
+      axis.text = element_text(size = 16),
+      axis.title = element_text(size = 16),
+      legend.text = element_text(size = 16),
+      legend.title= element_text(size = 16),
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank(),
+      axis.text.x = element_text(angle = 45, hjust = 1))+
+    guides(color = guide_legend(nrow = 3, byrow = TRUE)) 
+  
+  plot_Rval_synoptic
+  
 
 #1 row (horizontal)
 # combined_synopticonly<-(plot_Tval_synoptic + plot_Dval_synoptic + plot_Rval_synoptic) 
@@ -486,22 +471,29 @@ legend_data <- data.frame(
   Region = factor(names(mtn_colors), levels = names(mtn_colors)),
   x = 1, y = 1)
 
+
 legend_only_plot <- ggplot(legend_data, aes(x = x, y = y, color = Region)) +
   geom_line(size = 1.5) +
-  scale_color_manual(values = mtn_colors) +
+  geom_point(data = data.frame(x = NA, y = NA, Region = factor(names(mtn_colors), levels = names(mtn_colors)) ),
+    aes(x = x, y = y, color = Region, shape = Region),size = 3, stroke = 1.2,
+    inherit.aes = FALSE) +
+  scale_color_manual(values = mtn_colors, breaks = names(mtn_colors), drop = FALSE) +
+  scale_shape_manual(values = c(0,1,2,5,6,7,8,9,10), breaks = names(mtn_colors), drop = FALSE) +
   theme_void(base_size = 15) + 
-  guides(color = guide_legend(
-    nrow = 2, byrow = T, 
-    title.position = "top", title.hjust = 0.5,
-    override.aes = list(alpha = 1, linetype = 1, shape = NA))) +
+  guides(color = guide_legend(nrow = 2, byrow = T, title.position = "top", title.hjust = 0.5,
+    override.aes = list(alpha = 1,linetype = 1, shape = c(0,1,2,5,6,7,8,9,10),size = 3,stroke = 1.2)),shape = "none") +
   theme(legend.position = "bottom", 
-    legend.title = element_text(face = "bold", size = 16),
-    legend.text  = element_text(size = 16),
-    legend.key.width = unit(0.5, "cm"),
-    legend.spacing.x = unit(0.1, "cm"),
-    plot.background = element_rect(fill = "white", color = NA),
-    plot.margin = margin(t = -20, r = 0, b =10, l = 0) )
+        legend.title = element_text(face = "bold", size = 16),
+        legend.text  = element_text(size = 16),
+        legend.key.width = unit(0.5, "cm"),
+        legend.spacing.x = unit(0.1, "cm"),
+        plot.background = element_rect(fill = "white", color = NA),
+        plot.margin = margin(t = -20, r = 0, b =10, l = 0) )
+
 legend_only_plot
+
+
+
 
 plot_Tval_no_legend <- plot_Tval_synoptic + theme(legend.position = "none",
                                                   plot.margin = margin(t = 5, r = 20, b = 3, l = 5))
@@ -518,7 +510,7 @@ plots_col <- plot_grid(plot_Tval_no_legend, plot_Dval_no_legend,plot_Rval_no_leg
 combined_with_legend <- plot_grid(plots_col,legend_only_plot, ncol = 1, rel_heights = c(1, 0.14))
 combined_with_legend
 #save
-# ggsave("output/synoptic_with_background_models_single_legend_02042026_v2.png",plot=combined_with_legend,width=5, height=12, units='in')
+# ggsave("output/synoptic_with_background_models_single_legend_20261020.png",plot=combined_with_legend,width=5, height=12, units='in')
 
 
 #Supplemental figs --------------------
@@ -528,17 +520,18 @@ temp_cv <- real.means %>%
   mutate(binned_elev = elev_bin(Elevation)) %>% #elev bin is a function in the 00_setup script
   group_by(Region, binned_elev) %>%
   summarise(cv = sd(Max_T_mean, na.rm = TRUE) / mean(Max_T_mean, na.rm = TRUE),
-    n_lakes = n(),
-    .groups = "drop")%>%
+            n_lakes = n(),
+            .groups = "drop")%>%
   filter(n_lakes >= 4)
 
 
-temp_cv_plot <- ggplot(temp_cv, aes(binned_elev, cv, color = Region, group = Region)) +
-  geom_point() +
+temp_cv_plot <- ggplot(temp_cv, aes(binned_elev, cv, color = Region, shape = Region, group = Region)) +
+  geom_point(size = 2, stroke = 1.5) +
   geom_smooth(data = temp_cv %>% 
                 group_by(Region) %>% 
                 filter(n() > 2),se=F, method="loess", span=1) +
-  scale_color_manual(values = mtn_colors) +
+  scale_color_manual(values = mtn_colors, breaks = names(mtn_colors), drop = FALSE) +
+  scale_shape_manual(values = c(0,1,2,5,6,7,8,9,10), breaks = names(mtn_colors), drop = FALSE) +
   scale_x_continuous(limits = c(500, 3750), 
                      breaks = seq(500, 3750, by = 250)) +
   theme_bw(base_size = 16) +
@@ -547,33 +540,38 @@ temp_cv_plot <- ggplot(temp_cv, aes(binned_elev, cv, color = Region, group = Reg
         axis.title = element_text(size = 16),
         legend.text = element_text(size = 16),
         legend.title= element_text(size = 16),
-    panel.grid.major = element_blank(),
-    panel.grid.minor = element_blank())+
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank())+
   labs(x = " ",
-    y = "CoV - Temperature")
+       y = "CoV - Temperature",
+       color = "Region",
+       shape = "Region") +
+  guides(color = guide_legend(override.aes = list(shape = c(0,1,2,5,6,7,8,9,10))),
+         shape = "none")
 temp_cv_plot
 
 ## fig S3: DOC CoV x elevation, colored by mtn range------------------------------------------------------------------------
 doc_means <- ValData %>%
   group_by(Region) %>%
   summarise(Elevation = mean(Elevation, na.rm = TRUE),
-    DOC_mean  = mean(DOC, na.rm = TRUE),
-    .groups = "drop")
+            DOC_mean  = mean(DOC, na.rm = TRUE),
+            .groups = "drop")
 
 doc_cv <- ValData %>%
   mutate(binned_elev = elev_bin(Elevation)) %>%
-    group_by(Region, binned_elev) %>%
+  group_by(Region, binned_elev) %>%
   summarise(cv = sd(DOC, na.rm = TRUE) / mean(DOC, na.rm = TRUE),
-    n_lakes = n(),
-    .groups = "drop")%>%
+            n_lakes = n(),
+            .groups = "drop")%>%
   filter(n_lakes >= 4)
 
-doc_cv_plot <- ggplot(doc_cv, aes(binned_elev, cv, color = Region, group = Region)) +
-  geom_point() +
+doc_cv_plot <- ggplot(doc_cv, aes(binned_elev, cv, color = Region, shape = Region, group = Region)) +
+  geom_point(size = 2, stroke = 1.5) +
   geom_smooth(data = doc_cv %>% 
                 group_by(Region) %>% 
                 filter(n() > 2),se=F, method="loess", span=1) +
-  scale_color_manual(values = mtn_colors) +
+  scale_color_manual(values = mtn_colors, breaks = names(mtn_colors), drop = FALSE) +
+  scale_shape_manual(values = c(0,1,2,5,6,7,8,9,10), breaks = names(mtn_colors), drop = FALSE) +
   scale_x_continuous(limits = c(500, 3750), 
                      breaks = seq(500, 3750, by = 250)) +
   scale_y_continuous(limits = c(0, 1.5), 
@@ -585,7 +583,11 @@ doc_cv_plot <- ggplot(doc_cv, aes(binned_elev, cv, color = Region, group = Regio
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank())+
   labs(x = " ",
-       y = "CoV - DOC")
+       y = "CoV - DOC",
+       color = "Region",
+       shape = "Region") +
+  guides(color = guide_legend(override.aes = list(shape = c(0,1,2,5,6,7,8,9,10))),
+         shape = "none")
 doc_cv_plot
 
 ## fig S4: richness CoV x elevation, colored by mtn range-------------------------------------------------------------------
@@ -599,31 +601,35 @@ rich_cv <- val.data.new %>%
   filter(n_lakes >=4) 
 
 
-rich_cv_plot <- ggplot(rich_cv, aes(binned_elev, cv, color = Region, group = Region)) +
-  geom_point() +
+rich_cv_plot <- ggplot(rich_cv, aes(binned_elev, cv, color = Region, shape = Region, group = Region)) +
+  geom_point(size = 2, stroke = 1.5) +
   geom_smooth(data = rich_cv %>% 
-      group_by(Region) %>% 
-      filter(n() > 2),
-      se = FALSE, method = "loess", span = 1) +
-  scale_color_manual(values = mtn_colors) +
+                group_by(Region) %>% 
+                filter(n() > 2),
+              se = FALSE, method = "loess", span = 1) +
+  scale_color_manual(values = mtn_colors, breaks = names(mtn_colors), drop = FALSE) +
+  scale_shape_manual(values = c(0,1,2,5,6,7,8,9,10), breaks = names(mtn_colors), drop = FALSE) +
   scale_x_continuous(limits = c(500, 3750), 
                      breaks = seq(500, 3750, by = 250)) +
-    theme_bw(base_size = 16) +
+  theme_bw(base_size = 16) +
   theme(axis.title   = element_text(size = 18),
         axis.text    = element_text(size = 16),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
         axis.text.x = element_text(angle = 45, hjust = 1))+
   labs(x = "Lower elevation bin (250m intervals)",
-       y = "CoV - Richness")
+       y = "CoV - Richness",
+       color = "Region",
+       shape = "Region") +
+  guides(color = guide_legend(override.aes = list(shape = c(0,1,2,5,6,7,8,9,10))),
+         shape = "none")
 rich_cv_plot
-
 #save
-# ggsave("output/temp_cv_02042026.png",plot=temp_cv_plot,width=8, height=6, units='in')
+# ggsave("output/temp_cv_20261020.png",plot=temp_cv_plot,width=8, height=6, units='in')
 # 
-# ggsave("output/doc_cv_02042026.png",plot=doc_cv_plot,width=8, height=6, units='in')
+# ggsave("output/doc_cv_20261020.png",plot=doc_cv_plot,width=8, height=6, units='in')
 # 
-# ggsave("output/zoop_cv_02042026.png",plot=rich_cv_plot,width=8, height=6, units='in')
+# ggsave("output/zoop_cv_20261020.png",plot=rich_cv_plot,width=8, height=6, units='in')
 
 
 
@@ -654,5 +660,5 @@ empirical_cv_with_legend <- cowplot::plot_grid(empirical_cv_plots, legend_only_p
 empirical_cv_with_legend
 
 
- ggsave("output/empirical_and_cv_02192026.png",plot=empirical_cv_with_legend,width=11, height=13, units='in') 
+ ggsave("output/empirical_and_cv_20261020.png",plot=empirical_cv_with_legend,width=11, height=13, units='in') 
 

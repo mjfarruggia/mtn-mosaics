@@ -79,7 +79,7 @@ ValData2 <- ValData2 %>%
   ))
 
 ValData2$Range <- factor(ValData2$Range, levels = c("Yukon", "Northern Rockies", "Columbia", 
-                                                  "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
+                                                    "Olympic", "Cascades", "Siskiyou", "Southern Rockies", "Sierra Nevada", "Alps and Pyrenees"))
 
 
 
@@ -89,13 +89,11 @@ ValRel <- ValData2 %>%
   mutate(Elev_S = 100 * (Elevation - min(Elevation)) / Relief) %>%
   ungroup()
 
-# Reference relief used to map the 0-100 scale onto the model's meter axis. The model has no range of its own, so this is a choice.
 H_ref <- ValRel %>%
   distinct(Range, Relief) %>%
   pull(Relief) %>%
   mean()
 
-# rule = 2 clamps to the nearest model value outside the model's elevation grid
 model_at <- function(x) approx(DOCRunMod2$elevation, DOCRunMod2$DOCRunmean, xout = x, rule = 2)$y
 
 ValRel <- ValRel %>%
@@ -107,7 +105,6 @@ FitSummary <- ValRel %>%
 
 print(FitSummary)
 
-# Premise check: if position within the range is what matters, range relief should not explain DOC once Elev_S is in the model
 summary(lmer(DOC ~ Elev_S + Relief + (1 | Range), data = ValRel))
 
 model_S <- DOCRunMod2 %>%
@@ -162,13 +159,11 @@ library(gmbaR)
 library(sf)
 library(elevatr)
 
-# Reads the inventory and creates gmba_inv(). Run it without assigning the result (gmbaR requirement).
 # Large download; use source = "local", local = "path/to/shapefile.shp" after downloading once from https://www.earthenv.org/mountains
 gmba_read("web", timeout = 900)
 
 
 # 1. Find the polygons for each range  ---------------------------------------------
-# Run this block, read the printed candidates, then fill GMBA_V2_ID in section 2.
 
 search_terms <- c("Sierra Nevada", "Cascade", "Olympic", "Siskiyou", "Columbia", "Uinta", "Wind River", "Yellowstone", "Rocky", "Yukon", "Alps", "Pyrenees")
 
@@ -179,7 +174,7 @@ gmba_results <- gmba_inv() %>%
   dplyr::arrange(DBaseName)
 
 
- 
+
 # 2. region table ---------------------------------------------------------------
 region_ids <- tibble::tribble(
   ~Region, ~GMBA_V2_ID,
@@ -200,7 +195,7 @@ region_ids <- tibble::tribble(
   "Pyrenees", 11756
 )
 
-# Keep only the ranges that are in your data
+# Keep only the ranges that are in the data
 # region_ids <- region_ids %>%
 #   dplyr::filter(Range %in% unique(ValData$Region))
 
@@ -218,7 +213,6 @@ region_poly <- gmba_selected %>%
   dplyr::group_by(Region) %>%
   dplyr::summarise(do_union = TRUE, .groups = "drop")
 
-# Samples the DEM every spacing_m along the outer boundary. z = 7 is ~1 km pixels: fine for a mean, and keeps the tile downloads manageable.
 boundary_elev <- function(geom, spacing_m = 20000, z = 7) {
   xy <- geom %>%
     sf::st_transform(6933) %>%
@@ -243,8 +237,6 @@ RegionBase <- lapply(seq_len(nrow(region_poly)), function(i) {
 }) %>%
   dplyr::bind_rows()
 
-# Published lowest GMTED2010 elevation inside the polygon(s), for comparison. It is a single lowest cell, not an average base.
-# Use distinct polygon IDs before joining to avoid duplicate rows when multiple analysis ranges share an ID.
 
 ElevLow <- gmba_selected %>%
   sf::st_drop_geometry() %>%
@@ -298,4 +290,3 @@ ggplot() +
   scale_color_manual(values = mtn_colors, breaks = names(mtn_colors), name = "Mountain range", drop = T) +
   coord_cartesian(xlim = c(-600, 4000), ylim = c(0, 30)) +
   labs(x = "Height above range base (m)", y = "DOC (mg/L)")
-

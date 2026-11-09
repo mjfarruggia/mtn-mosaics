@@ -283,10 +283,15 @@ ValRel %>%
 
 
 #plot
-ggplot() +
+doc_scaled <- ggplot() +
   geom_line(data = DOCRunMod2, aes(x = elevation, y = DOCRunmean), linewidth = 1.5) +
   geom_point(data = ValRel, aes(x = Elev_J, y = DOC, color = Range)) +
   geom_smooth(data = ValRel, aes(x = Elev_J, y = DOC, color = Range, group = Range), method = "lm", se = FALSE, linewidth = 0.75) +
   scale_color_manual(values = mtn_colors, breaks = names(mtn_colors), name = "Mountain range", drop = T) +
   coord_cartesian(xlim = c(-600, 4000), ylim = c(0, 30)) +
   labs(x = "Height above range base (m)", y = "DOC (mg/L)")
+doc_scaled
+
+ggsave("output/scaled_DOC_20261020.png",plot=doc_scaled,width=11, height=13, units='in') 
+
+
